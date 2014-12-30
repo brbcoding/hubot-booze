@@ -46,8 +46,8 @@ module.exports = (robot) ->
   ]
 
   robot.hear /!whiske?y\s(.*)/i, (msg) ->
-    msg.reply "buys a #{msg.random whiskeys} for #{msg.match[0]}!"
+    msg.reply "buys a #{msg.random whiskeys} for #{msg.match[1].replace /^\s+|\s+$/g, ""}!"
     
 
   robot.hear /!beer\s(.*)/i, (msg) ->
-    msg.reply "buys a #{msg.random beers} for #{msg.match[0]}!"
+    msg.reply "buys a #{msg.random beers} for #{msg.match[1].replace /^\s+|\s+$/g, ""}!"
