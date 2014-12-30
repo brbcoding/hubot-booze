@@ -1,0 +1,39 @@
+{
+  "name": "hubot-booze",
+  "description": "Buy some booze for a friend",
+  "version": "0.0.1",
+  "author": "Cody Henshaw <cghensha@gmail.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "hubot-booze"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brbcoding/hubot-clj"
+  },
+
+  "bugs": {
+    "url": "https://github.com/brbcoding/hubot-clj/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
