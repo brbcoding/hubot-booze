@@ -1,4 +1,4 @@
-### hubot-clj
+### hubot-booze
 
 #### Description
 Buy some booze for a friend with hubot!
