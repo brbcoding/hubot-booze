@@ -13,11 +13,11 @@
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/brbcoding/hubot-clj"
+    "url": "https://github.com/brbcoding/hubot-booze"
   },
 
   "bugs": {
-    "url": "https://github.com/brbcoding/hubot-clj/issues"
+    "url": "https://github.com/brbcoding/hubot-booze/issues"
   },
 
   "dependencies": {
