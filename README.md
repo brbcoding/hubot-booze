@@ -1,7 +1,7 @@
 ### hubot-clj
 
 #### Description
-
+Buy some booze for a friend with hubot!
 
 #### Installation
 `npm install --save hubot-booze`
