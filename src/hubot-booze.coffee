@@ -8,8 +8,8 @@
 #   None
 #
 # Commands:
-#   !beer <name> - Buy a beer for <name>
-#   !whisk(e)y <name> - Buy a whiskey for <name>
+#   hubot beer <name> - Buy a beer for <name>
+#   hubot whisk(e)y <name> - Buy a whiskey for <name>
 #
 # Author:
 #   brbcoding
@@ -45,9 +45,9 @@ module.exports = (robot) ->
     "Bud Select"
   ]
 
-  robot.hear /!whiske?y\s(.*)/i, (msg) ->
-    msg.reply "buys a #{msg.random whiskeys} for #{msg.match[1].replace /^\s+|\s+$/g, ""}!"
+  robot.respond /whiske?y (.*)/i, (msg) ->
+    msg.reply "#{msg.message.user.name} buys a #{msg.random whiskeys} for #{msg.match[1].replace /^\s+|\s+$/g, ""}!"
     
 
-  robot.hear /!beer\s(.*)/i, (msg) ->
-    msg.reply "buys a #{msg.random beers} for #{msg.match[1].replace /^\s+|\s+$/g, ""}!"
+  robot.respond /beer (.*)/i, (msg) ->
+    msg.reply "#{msg.message.user.name} buys a #{msg.random beers} for #{msg.match[1].replace /^\s+|\s+$/g, ""}!"
