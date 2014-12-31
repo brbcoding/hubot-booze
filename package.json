@@ -1,7 +1,7 @@
 {
   "name": "hubot-booze",
   "description": "Buy some booze for a friend",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Cody Henshaw <cghensha@gmail.com>",
   "license": "MIT",
 
